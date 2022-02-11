@@ -1,7 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
-name: CI
-
 ###############################################
 
 # Run GitHub's Super Linter against code base #
@@ -47,4 +43,3 @@ jobs:
           DEFAULT_BRANCH: main
 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
